@@ -19,7 +19,7 @@ const Index = () => {
     {
       id: 1,
       name: '1 Месяц',
-      price: '499₽',
+      price: '180₽',
       duration: '30 дней',
       icon: 'Calendar',
       popular: false
@@ -27,16 +27,16 @@ const Index = () => {
     {
       id: 2,
       name: '180 Дней',
-      price: '1999₽',
+      price: '280₽',
       duration: '6 месяцев',
       icon: 'TrendingUp',
       popular: true,
-      discount: '-33%'
+      discount: '-53%'
     },
     {
       id: 3,
       name: 'Навсегда',
-      price: '4999₽',
+      price: '480₽',
       duration: 'Lifetime',
       icon: 'Crown',
       popular: false
