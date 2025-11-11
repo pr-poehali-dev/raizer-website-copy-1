@@ -143,7 +143,7 @@ const Index = () => {
                   {
                     icon: 'Settings',
                     title: 'Продвинутый функционал',
-                    description: 'AimBot, ESP, NoRecoil, Radar и многое другое с гибкими настройками'
+                    description: 'Aura, NoClip, ElytraTarget, ElytraMotion и куча других функций'
                   },
                   {
                     icon: 'Users',
@@ -169,7 +169,7 @@ const Index = () => {
             <div className="container mx-auto max-w-6xl">
               <div className="text-center mb-12">
                 <h3 className="text-4xl md:text-5xl font-bold font-heading mb-4">
-                  Поддерживаемые игры
+                  Поддерживаемые сервера
                 </h3>
               </div>
               <div className="grid md:grid-cols-2 gap-6">
@@ -177,12 +177,12 @@ const Index = () => {
                   {
                     name: 'ReallyWorld',
                     status: 'Активно',
-                    features: ['AimBot', 'ESP', 'NoRecoil', 'Radar', 'Speedhack']
+                    features: ['Aura', 'NoClip', 'ElytraTarget', 'ElytraMotion', 'Velocity']
                   },
                   {
                     name: 'BravoHVH',
                     status: 'Активно',
-                    features: ['Rage Mode', 'Anti-Aim', 'Fake Lag', 'Triggerbot', 'Backtrack']
+                    features: ['AutoTotem', 'Criticals', 'AutoArmor', 'Scaffold', 'Spider']
                   }
                 ].map((game, index) => (
                   <Card key={index} className="border-primary/50">
